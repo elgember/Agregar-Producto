@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueva</title>
+</head>
+<body>
+    <div>
+        <h1>lista de Productos</h1>
+        <div>
+            <span>Camisa de algodón - <strong>$20</strong></span>
+            <button onclick="agregarAlCarrito(1, 'Camisa de algodón', 20)">Añadir al carrito</button>
+        </div>
+        <div>
+            <span>Pantalón de mezclilla - <strong>$30</strong></span>
+            <button onclick="agregarAlCarrito(2, 'Pantalón de mezclilla', 30)">Añadir al carrito</button>
+        </div>
+        <div></div>
+            <span>Chaqueta de cuero - <strong>$50</strong></span>
+            <button onclick="agregarAlCarrito(3, 'Chaqueta de cuero', 50)">Añadir al carrito</button>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2>Carrito de compras</h2>
+            <div id="lista__carrito">
+                <p>Tu carrito está vacío.</p>
+                <span id="total__carrito"></span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="codigo.js"></script>
+</html>
